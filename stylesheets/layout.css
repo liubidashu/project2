@@ -618,7 +618,7 @@ animation: beg 4s linear infinite;
   width: 439px;
   height: 439px;
   margin-bottom: -441px;
-  margin-left: 101px;
+  margin-left: 97px;
   animation: t2 4s linear infinite;
 }
 @keyframes t2 {
@@ -631,7 +631,7 @@ animation: beg 4s linear infinite;
   width: 439px;
   height: 439px;
   margin-bottom: 114px;
-  margin-left: 866px;
+  margin-left: 872px;
   animation: t3 4s linear infinite;
 }
 @keyframes t3 {
