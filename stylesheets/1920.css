@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1920px) and (max-width: 2560px)
 .con1 > div, .con2 > div, .con3 > div, .con4 > div, .con5 > div  {
   display: flex;
   flex-direction: column;
@@ -48,11 +49,11 @@ padding: 27px;
 text-align: center;
 text-transform: uppercase;
 width: 2793px;
-animation: beg 4s linear infinite;
+animation: beg 8s linear infinite;
 }
 @keyframes beg {
- 0% { right: -1380px;}
- 100% { right: calc(100% - 1413px);}
+  0% { right: -1380px;}
+  100% { right: calc(100% - 1413px);}
 }
 /* клубок игла стрелы */
 .con1 {
@@ -605,7 +606,7 @@ animation: beg 4s linear infinite;
   width: 439px;
   height: 439px;
   margin-bottom: -434px;
-  margin-left: 484px;
+  margin-left: 491px;
   animation: t1 4s linear infinite;
 }
 @keyframes t1 {
@@ -618,7 +619,7 @@ animation: beg 4s linear infinite;
   width: 439px;
   height: 439px;
   margin-bottom: -441px;
-  margin-left: 101px;
+  margin-left: 114px;
   animation: t2 4s linear infinite;
 }
 @keyframes t2 {
@@ -631,7 +632,7 @@ animation: beg 4s linear infinite;
   width: 439px;
   height: 439px;
   margin-bottom: 114px;
-  margin-left: 866px;
+  margin-left: 871px;
   animation: t3 4s linear infinite;
 }
 @keyframes t3 {
@@ -676,7 +677,7 @@ animation: beg 4s linear infinite;
   font-size: 36px;
   font-weight: 200;
   color: white;
-  margin-top: 44px;
+  margin-top: 84px;
   margin-left: 21px;
   line-height: 1.5;
 }
