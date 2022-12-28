@@ -1,0 +1,43 @@
+.header img {
+  width: 1413px;
+  height: 118px;
+  margin-top: 53px;
+  margin-left: 14px;
+}
+.dom {
+  width: 1413px;
+  height: 472px;
+  margin: 0 auto;
+  margin-top: -61px;
+  background: url("../images/dom.png")
+}
+.dom img {
+  width: 1221px;
+  height: 269px;
+  margin-top: 155px;
+  margin-left: 96px;
+}
+.run {
+  width: 1413px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #1800AE;
+}
+.run p {
+font-family: "Oswald";
+font-style: normal;
+font-size: 42px;
+font-weight: 200;
+color: white;
+display: inline-block;
+padding: 30px;
+text-align: center;
+text-transform: uppercase;
+width: calc(100% - 60px);
+}
+.container * {
+ padding: 10px 14px;
+ border-color: black;
+ border: 7px solid #1800AE;
+}

@@ -1,0 +1,621 @@
+.con1 > div, .con2 > div, .con3 > div, .con4 > div, .con5 > div  {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+.big {
+  display: flex;
+}
+.header img {
+  width: 1413px;
+  height: 118px;
+  margin-top: 53px;
+  margin-left: 14px;
+}
+.dom {
+  width: 1413px;
+  height: 472px;
+  margin: 0 auto;
+  margin-top: -61px;
+  background: url("../images/dom.png");
+}
+.dom img {
+  width: 1221px;
+  height: 269px;
+  margin-top: 155px;
+  margin-left: 96px;
+}
+.run {
+  position: relative;
+  width: 1413px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #1800AE;
+  overflow: hidden;
+}
+.beg  {
+position: absolute;
+font-family: "Oswald";
+font-style: normal;
+font-size: 42px;
+font-weight: 200;
+color: white;
+display: inline-block;
+padding: 27px;
+text-align: center;
+text-transform: uppercase;
+width: 2793px;
+animation: beg 8s linear infinite;
+}
+@keyframes beg {
+  0% { right: -1380px;}
+  100% { right: calc(100% - 1413px);}
+}
+/* клубок игла стрелы */
+.con1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin-top: 55px;
+  margin-left: 14px;
+}
+.con1 .klubok {
+  display: flex;
+  width: 374px;
+  height: 1500px;
+  background: black;
+  border: 7px solid #1800AE;
+}
+.klubok .who1 {
+  display: flex;
+  width: 386px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.circle1 {
+  display: flex;
+  width: 399px;
+  height: 390px;
+  margin-bottom: 104px;
+  margin-left: -20px;
+  animation: circle1 6s linear infinite;
+}
+@keyframes circle1 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.circle2 {
+  display: flex;
+  width: 399px;
+  height: 390px;
+  margin-bottom: 84px;
+  margin-left: -20px;
+  animation: circle2 6s linear infinite;
+}
+@keyframes circle2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.circle3 {
+  display: flex;
+  width: 399px;
+  height: 390px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+  animation: circle3 6s linear infinite;
+}
+@keyframes circle3 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.who1 p {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 58px);
+}
+.con1 .igla {
+  display: flex;
+  width: 485px;
+  height: 1500px;
+  background: black;
+  border: 7px solid #1800AE;
+}
+.ig {
+  display: flex;
+  width: 450px;
+  height: 1412px;
+  margin-left: 20px;
+  margin-bottom: -6px;
+  background: url("../images/ig.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ig div {
+  background-color: #1800AE;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-top: 643px;
+  margin-left: 172px;
+  animation: ig 4s linear infinite;
+}
+@keyframes ig {
+  0% { transform: scale(.45); background-color: white;}
+  50% {transform: scale(1); background-color: #1800AE;}
+  100% {transform: scale(.45); background-color: white;}
+}
+.igla .who2 {
+  display: flex;
+  width: 491px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -3px;
+  margin-bottom: -7px;
+}
+.who2 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 63px);
+}
+.con1 .veretino {
+  width: 900px;
+  height: 540px;
+  margin-top: 14px;
+  background: black;
+  border: 7px solid #1800AE;
+  overflow: hidden;
+}
+.ve {
+  width: 885px;
+  height: 316px;
+  background: url("../images/ve.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 61px;
+  margin-left: 1px;
+  animation: ve 1.5s linear infinite;
+}
+@keyframes ve {
+  0% {transform: skew(15deg);}
+  50% {transform: skew(0.3deg);}
+  100% {transform: skew(15deg);}
+}
+.veretino .who3 {
+  display: flex;
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who3 p {
+  display: flex;
+  position: relative;
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 126px);
+}
+/* стрелы и перо */
+.con2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 497px;
+  height: 2082px;
+  margin-top: 55px;
+  margin-right: 14px;
+}
+.sk1 {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px;
+  margin-top: 127px;
+  animation: sk1 2s linear infinite;
+}
+@keyframes sk1 {
+  0% {left: 90px;}
+  100% {left: 8px;}
+}
+.sk2 {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px;
+  margin-top: 127px;
+  animation: sk2 2s linear infinite;
+}
+@keyframes sk2 {
+  0% {left: 90px;}
+  100% {left: 8px;}
+}
+.sk3 {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px;
+  margin-top: 127px;
+  animation: sk3 2s linear infinite;
+}
+@keyframes sk3 {
+  0% {left: 90px;}
+  100% {left: 8px;}
+}
+.sk4 {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px;
+  margin-top: 127px;
+  animation: sk4 2s linear infinite;
+}
+@keyframes sk4 {
+  0% {left: 90px;}
+  100% {left: 8px;}
+}
+.sk5 {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px;
+  margin-top: 127px;
+  animation: sk5 2s linear infinite;
+}
+@keyframes sk5 {
+  0% {left: 90px;}
+  100% {left: 8px;}
+}
+.con2 .strela {
+  display: flex;
+  width: 485px;
+  height: 1216px;
+  margin-left: 14px;
+  border: 7px solid #1800AE;
+}
+.s1 {
+  display: flex;
+  width: 389px;
+  height: 340px;
+  margin-left: 117px;
+  margin-bottom: -102px;
+  background: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.s2 {
+  display: flex;
+  width: 389px;
+  height: 340px;
+  margin-left: 118px;
+  margin-bottom: -99px;
+  background: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.s3 {
+  display: flex;
+  width: 389px;
+  height: 340px;
+  margin-left: 117px;
+  margin-bottom: -86px;
+  background: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.s4 {
+  display: flex;
+  width: 389px;
+  height: 340px;
+  margin-left: 117px;
+  margin-bottom: -82px;
+  background: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.s5 {
+  display: flex;
+  width: 389px;
+  height: 340px;
+  margin-left: 117px;
+  margin-bottom: -9px;
+  background: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.strela .who4 {
+  display: flex;
+  width: 493px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who4 p {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 62px);
+}
+.con2 .pero {
+  width: 485px;
+  height: 886px;
+  margin-top: 14px;
+  margin-left: 14px;
+  background: black;
+  border: 7px solid #1800AE;
+}
+.per {
+  display: flex;
+  position: relative;
+  width: 343px;
+  height: 696px;
+  margin-bottom: 17px;
+  margin-left: 70px;
+  background: url("../images/per.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pk {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  background: #1800AE;
+  width: 100px;
+  height: 100px;
+  margin-left: 122px;
+  margin-top: 198px;
+  animation: pk 4s linear infinite;
+}
+@keyframes pk {
+  0% { transform: scale(.45); background-color: white;}
+  50% {transform: scale(1); background-color: #1800AE;}
+  100% {transform: scale(.45); background-color: white;}
+}
+.pero .who5 {
+  width: 495px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who5 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 59px);
+}
+/* яблоки сказка и скатерть */
+.middle {
+  display: flex;
+}
+.con3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 513px;
+}
+.con3 .apples {
+  display: flex;
+  position: relative;
+  width: 472px;
+  height: 1267px;
+  margin-top: 14px;
+  margin-left: 14px;
+  overflow: hidden;
+  border: 7px solid #1800AE;
+}
+.pp {
+  display: flex;
+  position: relative;
+  width: 371px;
+  height: 2349px;
+  margin-bottom: 32px;
+  margin-left: 47px;
+  animation: pp 3s linear infinite;
+}
+@keyframes pp {
+  0% { top: 385px;}
+  100% { top: calc(100% - 385px);}
+}
+.apples .who6 {
+  display: flex;
+  position: relative;
+  width: 478px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who6 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 59px);
+}
+.con4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 927px;
+  margin-left: 14px;
+}
+.con4 .skat {
+  position: relative;
+  width: 899px;
+  height: 745px;
+  margin-top: 14px;
+  margin-right: 14px;
+  background: black;
+  border: 7px solid #1800AE;
+  overflow: hidden;
+}
+.sam3 {
+  width: 367px;
+  height: 676px;
+  margin-bottom: -5px;
+  margin-left: 265px;
+}
+.sam1 {
+  position: absolute;
+  background: url("../images/sam1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 548px;
+  margin-bottom: 143px;
+  margin-left: -275px;
+  animation: sam1 9s linear infinite;
+}
+@keyframes sam1 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.sam2 {
+  position: absolute;
+  background: url("../images/sam1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 548px;
+  margin-bottom: 143px;
+  margin-left: 652px;
+  animation: sam2 9s linear infinite;
+}
+@keyframes sam2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}
+.skat .who7 {
+  display: flex;
+  width: 906px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who7 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 59px);
+}
+.con4 .skazka {
+  width: 914px;
+  height: 505px;
+  background: #1800AE;
+  margin-top: 14px;
+}
+/* блюдце */
+.con5 {
+  display: flex;
+}
+.con5 .bludo {
+  width: 1401px;
+  height: 754px;
+  margin: 0 auto;
+  background: black;
+  border: 7px solid #1800AE;
+}
+.bludo .who8 {
+  width: 1408px;
+  height: 100px;
+  background: #1800AE;
+  margin-left: -5px;
+  margin-bottom: -7px;
+}
+.who8 p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 38px;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% - 80px);
+}
+.podval {
+  margin: 94px 14px 14px 14px;
+  width: 1400px;
+  height: 234px;
+  border: 7px solid #1800AE;
+}
+.podval p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 200;
+  color: white;
+  margin-top: 84px;
+  margin-left: 21px;
+}
